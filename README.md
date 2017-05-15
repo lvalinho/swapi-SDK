@@ -153,11 +153,11 @@ Add new module to this project should follow the next rules:
 ```javascript
 var myModule = (function (myModule, swapi) {
 
-	swapi.myFunctionA = function(){
+	myModule.myFunctionA = function(){
     //function code here
   }
   
-	swapi.myFunctionB = function(){
+	myModule.myFunctionB = function(){
     //function code here
   }
   
