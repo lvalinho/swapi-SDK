@@ -23,6 +23,7 @@ var swapi_config = {
 };
 ```
 The actual version includes modules "root", "films", "people", "planets", "species", "starships" and "vehicles".
+All the request require an callback function to treat the response.
 Nem modules can be added but should be implemented on resource folder.
 
 ## Call examples
