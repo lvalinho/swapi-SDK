@@ -168,5 +168,5 @@ var myModule = (function (myModule, swapi) {
 
 ## Future Work
 
-* Possibilitie to "expand" nodes of plugins, for instance, when swapi.starships.getAll is called, in addition to returne the starships data also deploys the branch of the films which appeared in.
+* Possibilitie to "expand" nodes of plugins, for instance, when swapi.starships.getAll is called, in addition to return the starships data also deploys the branch of the films which appeared in.
 
