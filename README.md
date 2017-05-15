@@ -167,6 +167,21 @@ var myModule = (function (myModule, swapi) {
 }(myModule || {}, swapi));
 ```
 
+###Make api request:
+```javascript
+swapi.request(path, callback);
+```
+* path: string with path to resource
+* callback: callback function
+
+Example:
+```javascript
+var films;
+swapi.request("/films", function(response){
+   films = response;
+});
+```
+
 ## Future Work
 
 * Possibilitie to "expand" nodes of plugins, for instance, when swapi.starships.getAll is called, in addition to return the starships data also deploys the branch of the films which appeared in.
